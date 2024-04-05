@@ -5,7 +5,7 @@ import util.NNN.Grade119;
 
 import java.util.Collection;
 import java.util.Iterator;
-
+// 3. (12 points) Given the public "Commentable" interface in the "commenting.NNNNN" package,
 public interface Commentable extends Iterable<CommentPlus119> {
     default boolean addComment(String message) { return addComment(message, null); }
     boolean addComment(String message, Grade119 grade);

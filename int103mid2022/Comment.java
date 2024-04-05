@@ -1,3 +1,4 @@
+// 2. (45 points) Given the public "Comment" class in the "util.NNNNN" package, 
 package util.NNN
 public class Comment {
     private final String message;
