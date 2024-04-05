@@ -39,7 +39,13 @@ public class CommentList119 implements CommentablePlus119{
 
     @Override
     public Collection<String> extract(Grade119 grade) {
-        return null;
+        var list = new LinkedList<String>();
+        comments.forEach(x -> {
+            if (CommentPlus.match.test(x)) {
+                list.add(x.toString());
+            }
+        });
+        return (Collection<String>)list;
     }
 
     @Override
