@@ -14,6 +14,7 @@ public class Int103Scanner {
       demo201ScannerSystemIn();
       demo301URLReader();
       demo401ConsoleReadPassword();
+      System.out.println("Hello");
    } 
    public static void demo000ScannerMethods() {
       System.out.println("""
